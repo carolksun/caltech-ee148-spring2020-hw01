@@ -18,6 +18,8 @@ file_names = [f for f in file_names if '.jpg' in f]
 
 preds = {}
 for i in range(len(file_names)):
+    if (i % 5 == 0):
+        print(i)
     path = os.path.join(data_path,file_names[i])
     
     # read image using PIL:
