@@ -2,11 +2,6 @@ import numpy as np
 from PIL import Image
 from scipy.signal import find_peaks
 
-import matplotlib.pyplot as plt
-import matplotlib.patches as patches
-import matplotlib as mpl
-mpl.use('tkagg')
-
 width = 29
 height = 66
 
