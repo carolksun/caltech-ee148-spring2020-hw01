@@ -12,7 +12,7 @@ def smooth(y, box_pts):
 
 def get_ex():
     bb = [25, 320, 91, 349]
-    path = '../data/RedLights2011_Medium/RL-010.jpg'
+    path = 'data/RedLights2011_Medium/RL-010.jpg'
 
     I = Image.open(path)
     I = np.asarray(I)

@@ -4,10 +4,10 @@ import json
 from PIL import Image
 from find_bounding_box import detect_red_light
 # set the path to the downloaded data: 
-data_path = '../data/RedLights2011_Medium'
+data_path = 'data/RedLights2011_Medium'
 
 # set a path for saving predictions: 
-preds_path = '../data/hw01_preds' 
+preds_path = 'data/hw01_preds' 
 os.makedirs(preds_path,exist_ok=True) # create directory if needed 
 
 # get sorted list of files: 
